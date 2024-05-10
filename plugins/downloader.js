@@ -75,7 +75,7 @@ const {
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*WASI IG STALKER*
+\t* IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");

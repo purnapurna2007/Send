@@ -384,7 +384,7 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :* ᴡᴀsɪᴍᴅ-ᴠ2\n\n" +
+        "\n\n *🧑‍💻 :* 𝗥𝗖𝗗 𝗠𝗗\n\n" +
         readmore +
         "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
@@ -749,7 +749,7 @@ astro_patch.smd(
             sourceUrl:
               "https://wa.me/+" +
               global.owner?.split(",")[0] +
-              "?text=Hii+" +
+              "?text=𝗥𝗖𝗗_𝗠𝗗+" +
               Config.ownername,
           },
         },

@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "𝗥𝗖𝗗-𝗠𝗗",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -1192,7 +1192,7 @@ const {
        forwardingScore: 999,
        isForwarded: true,
        externalAdReply: {
-         title: "Suhail-Md Broadcast",
+         title: "𝗥𝗙𝗗-𝗠𝗗 Broadcast",
          body: _0x553d05.senderName,
          renderLargerThumbnail: true,
          thumbnail: log0,
