@@ -1,6 +1,6 @@
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j">
-    <img alt="wasi" height="300" src="https://ibb.co/x1p62hx">
+    <img alt="wasi" height="300" src="https://imagetolink.com/ib/K40KWHo4yn">
     <h1 align="center">WASI MD V2</h1>
   </a>
 </p>
