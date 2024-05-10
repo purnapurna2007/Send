@@ -201,9 +201,9 @@ smd(
 ); */
 astro_patch.smd(
   {
-    cmdname: "menu",
+    cmdname: "rcd",
     desc: "Help list",
-    react: "📁",
+    react: "🥵",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -318,7 +318,7 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*𝚆𝙰𝚂𝙸-𝙼𝙳-𝚅2*
+*-ʀᴄᴅ-ᴍᴅ*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*𝘓𝘢𝘵𝘦𝘯𝘤𝘺.................🙆‍♂️: ${pingTime} ᴍs*`,
+      `*𝗥𝗖𝗗_𝗽𝗶𝗻𝗴* .................🙆‍♂️: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -561,7 +561,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/d9fb019f63ef3b1d47c6e.jpg",
+            "https://telegra.ph/file/7461572c18eed52d602c7.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -578,13 +578,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝘞𝘈𝘚𝘐 𝘔𝘋 𝘝2\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸`;
+          const captionText = `𝘙𝘊𝘋 𝘔𝘋\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n𝚁𝙲𝙳 𝙼𝙳`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/d9fb019f63ef3b1d47c6e.jpg",
+            "https://telegra.ph/file/095c447f446b61d3738b0.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -600,13 +600,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸`;
+          const captionText = `𝚁𝙲𝙳 𝙼𝙳 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/d9fb019f63ef3b1d47c6e.jpg",
+            "https://telegra.ph/file/095c447f446b61d3738b0.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -622,7 +622,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝘞𝘈𝘚𝘐-𝘔𝘋-𝘝2\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝗕𝗬-𝗪𝗔𝗦𝗜-𝗦𝗘𝗥`;
+          const captionText = `𝚁𝙲𝙳 𝙼𝙳\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝗕𝗬-𝗪𝗔𝗦𝗜-𝗦𝗘𝗥`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -669,13 +669,13 @@ smd(
 
       const ramUsage = process.memoryUsage().heapTotal / 1024 / 1024;
 
-      const message = `*𝗪𝗔𝗦𝗜-𝗠𝗗-𝗩2-𝗜𝗡-𝗥𝗨𝗡𝗡𝗜𝗡𝗚-𝗙𝗥𝗢𝗠:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
+      const message = `*𝗥𝗖𝗗-𝗠𝗗-𝗩2-𝗜𝗡-𝗥𝗨𝗡𝗡𝗜𝗡𝗚-𝗙𝗥𝗢𝗠:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "wasi MD Running Since",
+        title: "𝗥𝗖𝗗 MD Running Since",
         body: message,
-        footerText: "wasi MD 2024",
+        footerText: "𝗥𝗖𝗗 MD 2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
       };
@@ -696,7 +696,7 @@ astro_patch.cmd({
       const {
         commands: _0x7cfe13
       } = require("../lib");
-      let _0x95885d = "\n\t*𝗪𝗔𝗦𝗜-𝗠𝗗-𝗩2-𝗖𝗠𝗗-𝗜𝗡𝗙𝗢*  \n";
+      let _0x95885d = "\n\t*𝗥𝗖𝗗-𝗠𝗗 𝗖𝗠𝗗-𝗜𝗡𝗙𝗢*  \n";
       for (let _0x2bd72c = 0; _0x2bd72c < _0x7cfe13.length; _0x2bd72c++) {
         if (_0x7cfe13[_0x2bd72c].pattern == undefined) {
           continue;
@@ -996,7 +996,7 @@ function _0x593b() {
     "schedule",
     "_COMMANDS*  \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n\n",
     "text",
-    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t𝘄𝗮𝘀𝗶-𝗠𝗱_",
+    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t𝗥𝗖𝗗-𝗠𝗱_",
     "2716190HSgAcg",
     "info",
     "endsWith",
