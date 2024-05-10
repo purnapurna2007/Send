@@ -12,14 +12,14 @@ global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github = process.env.GITHUB || "https://github.com/Itxxwasi/WASI-MD-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/fee7af11b4edf8eb7c272.jpg";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Srilanka/Ampara";
+global.github = process.env.GITHUB || "null";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeSz8lFsn0aXctXCX20";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeSz8lFsn0aXctXCX20";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/6a917856b95e037da893f.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923135673658,923192173398";
-global.owner = process.env.OWNER_NUMBER || "923135673658";
+global.sudo = process.env.SUDO || "94778493845,94789958225";
+global.owner = process.env.OWNER_NUMBER || "94789958225";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -29,7 +29,7 @@ global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "online";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://wasimdscanner-68feefafb737.herokuapp.com/";
+global.scan = "null";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -51,9 +51,9 @@ module.exports = {
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
+  botname: process.env.BOT_NAME || "𝗥𝗖𝗗 𝗠𝗗",
   ownername: process.env.OWNER_NAME || "WASI",
-  errorChat: process.env.ERROR_CHAT || "923192173398",
+  errorChat: process.env.ERROR_CHAT || "94789958225",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "WASI").toUpperCase(),
+  LANG: (process.env.THEME || "Dexter").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
